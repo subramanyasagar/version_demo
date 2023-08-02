@@ -1,5 +1,5 @@
 flows:
-  3e27aa85-dfb5-4322-8f29-daa1ab7857ce: {ver: 1, file: Test_Dev.snapshot, comments: '',
-    author: anonymous, created: 1690949574941, flowName: Test Dev, flowDesc: ''}
+  3e27aa85-dfb5-4322-8f29-daa1ab7857ce: {ver: 2, file: Test_Dev.snapshot, comments: Test
+      Changes, author: anonymous, created: 1690951587552, flowName: Test Dev, flowDesc: ''}
 layoutVer: 1
 bucketId: 968fc8b9-5ed6-41e9-98e9-e2b3b23846de
