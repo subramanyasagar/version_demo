@@ -1,0 +1,113 @@
+{
+  "header" : {
+    "dataModelVersion" : "3"
+  },
+  "content" : {
+    "flowSnapshot" : {
+      "externalControllerServices" : { },
+      "flowContents" : {
+        "comments" : "",
+        "componentType" : "PROCESS_GROUP",
+        "connections" : [ ],
+        "controllerServices" : [ ],
+        "defaultBackPressureDataSizeThreshold" : "1 GB",
+        "defaultBackPressureObjectThreshold" : 10000,
+        "defaultFlowFileExpiration" : "0 sec",
+        "flowFileConcurrency" : "UNBOUNDED",
+        "flowFileOutboundPolicy" : "STREAM_WHEN_AVAILABLE",
+        "funnels" : [ ],
+        "identifier" : "aa29638f-61a0-3bb4-b703-7194e6f85e59",
+        "inputPorts" : [ ],
+        "instanceIdentifier" : "b471245f-0189-1000-f47f-7f3cfad1443c",
+        "labels" : [ ],
+        "name" : "Nifi Process Group",
+        "outputPorts" : [ ],
+        "position" : {
+          "x" : 1090.0,
+          "y" : 223.01171875
+        },
+        "processGroups" : [ ],
+        "processors" : [ {
+          "autoTerminatedRelationships" : [ ],
+          "backoffMechanism" : "PENALIZE_FLOWFILE",
+          "bulletinLevel" : "WARN",
+          "bundle" : {
+            "artifact" : "nifi-standard-nar",
+            "group" : "org.apache.nifi",
+            "version" : "1.22.0"
+          },
+          "comments" : "",
+          "componentType" : "PROCESSOR",
+          "concurrentlySchedulableTaskCount" : 1,
+          "executionNode" : "ALL",
+          "groupIdentifier" : "aa29638f-61a0-3bb4-b703-7194e6f85e59",
+          "identifier" : "7b2b62eb-be4e-332c-8e68-5c371ea18779",
+          "instanceIdentifier" : "b472a162-0189-1000-7e7a-382e81999746",
+          "maxBackoffPeriod" : "10 mins",
+          "name" : "ExecuteProcess",
+          "penaltyDuration" : "30 sec",
+          "position" : {
+            "x" : 1216.9998243187551,
+            "y" : 277.01139011857833
+          },
+          "properties" : {
+            "Redirect Error Stream" : "false",
+            "Argument Delimiter" : " "
+          },
+          "propertyDescriptors" : {
+            "Command" : {
+              "displayName" : "Command",
+              "identifiesControllerService" : false,
+              "name" : "Command",
+              "sensitive" : false
+            },
+            "Redirect Error Stream" : {
+              "displayName" : "Redirect Error Stream",
+              "identifiesControllerService" : false,
+              "name" : "Redirect Error Stream",
+              "sensitive" : false
+            },
+            "Working Directory" : {
+              "displayName" : "Working Directory",
+              "identifiesControllerService" : false,
+              "name" : "Working Directory",
+              "sensitive" : false
+            },
+            "Argument Delimiter" : {
+              "displayName" : "Argument Delimiter",
+              "identifiesControllerService" : false,
+              "name" : "Argument Delimiter",
+              "sensitive" : false
+            },
+            "Batch Duration" : {
+              "displayName" : "Batch Duration",
+              "identifiesControllerService" : false,
+              "name" : "Batch Duration",
+              "sensitive" : false
+            },
+            "Command Arguments" : {
+              "displayName" : "Command Arguments",
+              "identifiesControllerService" : false,
+              "name" : "Command Arguments",
+              "sensitive" : false
+            }
+          },
+          "retriedRelationships" : [ ],
+          "retryCount" : 10,
+          "runDurationMillis" : 0,
+          "scheduledState" : "ENABLED",
+          "schedulingPeriod" : "0 sec",
+          "schedulingStrategy" : "TIMER_DRIVEN",
+          "style" : { },
+          "type" : "org.apache.nifi.processors.standard.ExecuteProcess",
+          "yieldDuration" : "1 sec"
+        } ],
+        "remoteProcessGroups" : [ ],
+        "variables" : { }
+      },
+      "flowEncodingVersion" : "1.0",
+      "parameterContexts" : { },
+      "parameterProviders" : { }
+    }
+  }
+}
